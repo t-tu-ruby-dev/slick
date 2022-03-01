@@ -3240,6 +3240,11 @@ flat-cache@^3.0.4:
     flatted "^3.1.0"
     rimraf "^3.0.2"
 
+flatpickr@^1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/flatpickr/-/flatpickr-1.9.1.tgz#6a6f8dea4a75d4ef9e4b92a8b50de7533ae27dab"
+  integrity sha1-am+N6kp11O+eS5KotQ3nUzrifas=
+
 flatted@^3.1.0:
   version "3.2.5"
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.5.tgz#76c8584f4fc843db64702a6bd04ab7a8bd666da3"
@@ -3831,6 +3836,11 @@ joi@^17.4.0:
     "@sideway/address" "^4.1.3"
     "@sideway/formula" "^3.0.0"
     "@sideway/pinpoint" "^2.0.0"
+
+jquery@^3.4.1:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.0.tgz#c72a09f15c1bdce142f49dbf1170bdf8adac2470"
+  integrity sha512-JVzAR/AjBvVt2BmYhxRCSYysDsPcssdmTFnzyLEts9qNwmjmu4JTAMYubEfwVOSwpQ1I1sKKFcxhZCI2buerfw==
 
 js-message@1.0.7:
   version "1.0.7"
@@ -5383,6 +5393,14 @@ slice-ansi@^4.0.0:
     ansi-styles "^4.0.0"
     astral-regex "^2.0.0"
     is-fullwidth-code-point "^3.0.0"
+
+slickgrid-es6@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/slickgrid-es6/-/slickgrid-es6-3.0.3.tgz#ebad00728db6e76aac5a520870a3b2e71964aa1d"
+  integrity sha512-l/ISKIS8lJv9S6kGlz6q64GrPoGIVKyuq3cljF0ySttqcw2qPiWnNZit8PPEWL5E+CG4/yK+iP2mpQ7vkfL9Cg==
+  dependencies:
+    flatpickr "^1.9.1"
+    jquery "^3.4.1"
 
 sockjs@^0.3.21:
   version "0.3.24"
